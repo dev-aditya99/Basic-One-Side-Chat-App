@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    /* background-color: #dddddd6b; */
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 350px;
+    height: 550px;
+    background: #fff;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+.chatt_header {
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    background: #000;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo_and_name {
+    width: 100%;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.ul_logo_and_name {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.li_logo {
+    width: 40px;
+    height: 40px;
+    border: 0.1px solid rgba(255, 255, 255, 0.402);
+    border-radius: 50%;
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.span_logo {
+    color: #fff;
+}
+
+.input_file_logo {
+    display: none;
+}
+
+.dp-label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dp-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.li_name {
+    width: 80%;
+    height: 100%;
+    text-decoration: none;
+    list-style: none;
+}
+
+.span_contact_name {
+    width: 100%;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+
+.chatt_area {
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.chatt_area::-webkit-scrollbar {
+    display: none;
+}
+
+
+.recieved_msg {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.span_recieved_msg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #d6d6d6;
+    border-radius: 10px 10px 10px 0px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.sended_msg {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.span_sended_msg {
+    max-width: 80%;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #000000;
+    border-radius: 10px 10px 0px 10px;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.textarea_and_send {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-top: 0.5px solid #d7d3d3c7;
+}
+
+#id_textarea {
+    width: 80%;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#id_textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.send_btn {
+    width: 20%;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.send_btn:hover {
+    background: #000000dd;
+}
+
+.send_btn:active {
+    background: #000000cd;
+}
+
+
+
+.credit {
+    width: 100%;
+    color: #d6d6d6;
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    font-family: poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+}
